@@ -5,30 +5,77 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Landing Page</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background-color: #F3F2ED;
+    }
+    footer {
+      background-color: #A39270;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(280px, 1fr));
+      gap: 16px;
+    }
+    img.portrait {
+      grid-row: span 2;
+    }
+    img.landscape {
+      grid-row: span 1;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    @media only screen and (max-width: 600px) {
+      .grid{
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
 </head>
-<body class="bg-gray-50">
-
-  <!-- Your Landing Page Content Here -->
-
-  <header class="bg-blue-600 text-white p-6">
+<body class="flex flex-col min-h-screen">
+  <header class="p-6">
     <div class="container mx-auto text-center">
-      <h1 class="text-3xl font-bold">Welcome to My Landing Page</h1>
-      <p class="text-lg mt-4">We are glad to have you here. Learn more about our product below.</p>
+      <img class="md:w-1/5 w-1/2 h-auto mx-auto" src="TBH-images/logo.jpeg"></img>
     </div>
   </header>
 
-  <section class="py-12 text-center">
-    <div class="container mx-auto">
-      <h2 class="text-2xl font-semibold mb-4">Why Choose Us?</h2>
-      <p class="text-lg">We offer the best solutions for your needs.</p>
-    </div>
-  </section>
+  <main class="f">
+    <section class="grid px-4 md:mx-20">
+        <img class="portrait" src="TBH-images/image5.jpeg" alt="" width="auto" height="auto" />
+        <img class="landscape" src="TBH-images/image7.jpeg" alt="" width="auto" height="auto" />
+        <img class="portrait" src="TBH-images/image1.jpeg" alt="" width="auto" height="auto" />
+        <img class="landscape" src="TBH-images/image6.jpeg" alt="" width="auto" height="auto" />
+        <img class="portrait" src="TBH-images/image3.jpeg" alt="" width="auto" height="auto" />
+        <img class="landscape" src="TBH-images/image4.jpeg" alt="" width="auto" height="auto" />
+        <img class="portrait" src="TBH-images/image0.jpeg" alt="" width="auto" height="auto" />
+        <img class="landscape" src="TBH-images/image2.jpeg" alt="" width="auto" height="auto" />
+    </section>
 
-  <footer class="bg-gray-800 text-white py-4">
+    <section class="py-12 text-center">
+      <div class="md:grid-cols-2 md:flex mx-auto px-4 md:px-20">
+        <div class="w-full md:pr-20">
+          <h2 class="text-left">Sobre The BridgeHouse</h2>
+          <p class="text-left">The BridgeHouse es un proyecto familiar enclavado en las impresionantes montañas de Jarabacoa, República Dominicana. Rodeada de imponentes pinos y un refrescante clima. Esta impresionante Villa ofrece el escape perfecto al ajetreo y estrés del dia a dia. 
+            La propiedad contiene 3 habitaciones y puede alojar hasta 10 huéspedes. The BridgeHouse está diseñada para una lujosa comodidad, la relajación y el constante contacto con la bella naturaleza que le rodea. Su imponente arquitectura combina la elegancia con la naturaleza. Sus amplios ventanales ofrecen vistas a la belleza del exterior y la sensación de sentirse en pleno bosque.</p>
+        </div>
+        <div class="w-full md:pl-20">¡Notificar!</div>
+      </div>
+    </section>
+
+<section>
+  <iframe class="mx-auto mb-10" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60313.74859578423!2d-70.6550931!3d19.124789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb0303a7467ec73%3A0x7ea5bf093b5de147!2s41000%20Jarabacoa%2C%20Dominican%20Republic!5e0!3m2!1sen!2sus!4v1743998883397!5m2!1sen!2sus" width="90%" height="450" style="border:0; border-radius: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+  </main>
+
+  <footer class=" text-white py-4">
     <div class="container mx-auto text-center">
-      <p>&copy; 2025 Your Company. All rights reserved.</p>
+      <p>&copy; 2025 The BridgeHouse. All rights reserved.</p>
     </div>
   </footer>
-
 </body>
 </html>
