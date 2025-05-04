@@ -15,7 +15,7 @@
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(280px, 1fr));
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
       gap: 16px;
     }
     img.portrait {
@@ -43,7 +43,7 @@
     </div>
   </header>
 
-  <main class="f">
+  <main class="">
     <section class="grid px-4 md:mx-20">
         <img class="portrait" src="TBH-images/image5.jpeg" alt="" width="auto" height="auto" />
         <img class="landscape" src="TBH-images/image7.jpeg" alt="" width="auto" height="auto" />
@@ -56,13 +56,36 @@
     </section>
 
     <section class="py-12 text-center">
-      <div class="md:grid-cols-2 md:flex mx-auto px-4 md:px-20">
-        <div class="w-full md:pr-20">
-          <h2 class="text-left">Sobre The BridgeHouse</h2>
-          <p class="text-left">The BridgeHouse es un proyecto familiar enclavado en las impresionantes montañas de Jarabacoa, República Dominicana. Rodeada de imponentes pinos y un refrescante clima. Esta impresionante Villa ofrece el escape perfecto al ajetreo y estrés del dia a dia. 
+      <div class="md:grid grid-cols-5 px-4 md:mx-20 gap-8">
+        <div class="w-full col-span-3 md:mb-0 mb-4">
+          <h2 class="text-left font-bold mb-2 text-lg">Sobre The BridgeHouse</h2>
+          <p class="text-left md:mb-0 mb-8">The BridgeHouse es un proyecto familiar enclavado en las impresionantes montañas de Jarabacoa, República Dominicana. Rodeada de imponentes pinos y un refrescante clima. Esta impresionante Villa ofrece el escape perfecto al ajetreo y estrés del dia a dia. 
             La propiedad contiene 3 habitaciones y puede alojar hasta 10 huéspedes. The BridgeHouse está diseñada para una lujosa comodidad, la relajación y el constante contacto con la bella naturaleza que le rodea. Su imponente arquitectura combina la elegancia con la naturaleza. Sus amplios ventanales ofrecen vistas a la belleza del exterior y la sensación de sentirse en pleno bosque.</p>
         </div>
-        <div class="w-full md:pl-20">¡Notificar!</div>
+        <div class="w-full col-span-2">
+          <div style="width:auto;" id="mc_embed_shell">
+            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+              #mc_embed_signup{background: transparent; false;clear:left; font:14px Helvetica,Arial,sans-serif; width: auto;}
+              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+      </style>
+      <div style="background-color: transparent; width: auto; margin: 0;" id="mc_embed_signup">
+          <form style="margin: 0px" action="https://gmail.us17.list-manage.com/subscribe/post?u=f8f2ad2020030cfd235febe30&amp;id=f556e8f97b&amp;f_id=008ef8e2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+              <div id="mc_embed_signup_scroll"><h2 class= "!text-lg " style="margin: 0px;">¡Notificar!</h2>
+                  <div class="indicates-required"><span class="asterisk">*</span>Indica requerido                  </div>
+                  <div class="mc-field-group"><label for="mce-EMAIL">Dirección de correo electrónico<span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+              <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display: none;"></div>
+                  <div class="response" id="mce-success-response" style="display: none;"></div>
+              </div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_f8f2ad2020030cfd235febe30_f556e8f97b" tabindex="-1" value=""></div><div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Suscribir"></div>
+          </div>
+      </form>
+      </div>
+      <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
+      
+        </div>
+        
       </div>
     </section>
 
