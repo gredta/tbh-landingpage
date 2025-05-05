@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Bridge House</title>
+  <title>The BridgeHouse</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   
   <style>
@@ -13,7 +13,7 @@
     footer {
       background-color: #A39270;
     }
-    .grid {
+    .image-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(200px, 1fr));
       gap: 16px;
@@ -44,7 +44,7 @@
   </header>
 
   <main class="">
-    <section class="grid px-4 md:mx-20">
+    <section class="image-grid grid px-4 md:mx-20">
         <img class="portrait" src="TBH-images/image5.jpeg" alt="" width="auto" height="auto" />
         <img class="landscape" src="TBH-images/image7.jpeg" alt="" width="auto" height="auto" />
         <img class="portrait" src="TBH-images/image1.jpeg" alt="" width="auto" height="auto" />
@@ -55,39 +55,83 @@
         <img class="landscape" src="TBH-images/image2.jpeg" alt="" width="auto" height="auto" />
     </section>
 
-    <section class="py-12 text-center">
-      <div class="md:grid grid-cols-5 px-4 md:mx-20 gap-8">
-        <div class="w-full col-span-3 md:mb-0 mb-4">
-          <h2 class="text-left font-bold mb-2 text-lg">The BridgeHouse</h2>
-          <p class="text-left md:mb-0 mb-8">The BridgeHouse es un proyecto familiar enclavado en las impresionantes montañas de Jarabacoa, República Dominicana. Rodeada de imponentes pinos y un refrescante clima. Esta impresionante Villa ofrece el escape perfecto al ajetreo y estrés del dia a dia. 
-            La propiedad contiene tres habitaciones y puede alojar hasta diez huéspedes. The BridgeHouse está diseñada para una lujosa estadía a la relajación y el constante contacto con la bella naturaleza que le rodea. Su imponente arquitectura combina la elegancia con la naturaleza. Sus amplios ventanales ofrecen vistas a la belleza del exterior y la sensación de sentirse en pleno bosque.</p>
+    <section class="text-center">
+      <div class="px-4 md:mx-20 gap-8">
+        <div class="w-full md:mb-0">
+          <h2 class="text-left font-bold mb-2 text-2xl my-4">The BridgeHouse</h2>
+          <p class="text-left md:mb-0">The BridgeHouse es un proyecto familiar enclavado en las impresionantes montañas de Jarabacoa, República Dominicana. Rodeada de imponentes pinos y un refrescante clima. Esta impresionante Villa ofrece el escape perfecto al ajetreo y estrés del dia a dia. 
+            La propiedad contiene tres habitaciones y puede alojar hasta diez huéspedes. The BridgeHouse está diseñada para una lujosa estadía, a la relajación y el constante contacto con la bella naturaleza que le rodea. Su imponente arquitectura combina la elegancia con la naturaleza. Sus amplios ventanales ofrecen vistas a la belleza del exterior y la sensación de sentirse en pleno bosque.</p>
         </div>
-        <div class="w-full col-span-2 mx-auto">
-          <div style="width:auto;" id="mc_embed_shell">
-            <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-        <style type="text/css">
-              #mc_embed_signup{background: transparent;  font:auto Helvetica,Arial,sans-serif; width: auto; text-align: center;}
-              /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-      </style>
-      <div class="mx-auto" style="background-color: transparent; width: auto; margin: 0; text-align: center;" id="mc_embed_signup">
-          <form style="margin: 0 auto" action="https://gmail.us17.list-manage.com/subscribe/post?u=f8f2ad2020030cfd235febe30&amp;id=f556e8f97b&amp;f_id=008ef8e2f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-              <div id="mc_embed_signup_scroll"><h2 class="" style="margin: 0 auto; font-size: 1.125rem; margin-bottom: .5rem;">¡Notificar!</h2>
-                <p class="text-md">Estaremos prontamente disponibles en plataformas de alquiler vacacional. Para estar al tanto de nuestras ultimas novedades porfavor de ingresar su correo electrónico:</p>
-                  <div class="mc-field-group"><label for="mce-EMAIL"><span class="asterisk"></span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
-              <div style="margin: 0px; padding: 0px;" id="mce-responses" class="clear">
-                  <div style="margin: 0px; padding: 0px;" class="response" id="mce-error-response" style="display: none;"></div>
-                  <div style="margin: 0px; padding-top: 0px; padding-bottom: 12px;" class="response" id="mce-success-response" style="display: none;"></div>
-              </div><div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_f8f2ad2020030cfd235febe30_f556e8f97b" tabindex="-1" value=""></div><div class="clear"><input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Suscribir"></div>
-          </div>
-      </form>
-      </div>
-      <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';fnames[6]='COMPANY';ftypes[6]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-      
-        </div>
-        
       </div>
     </section>
+
+  <section class="bg-white dark:bg-gray-900 md:my-10">
+    <div class="container block md:grid gap-12 px-4 py-12 md:my-0 my-8 mx-auto md:grid-cols-2">
+      
+      <!-- Mailchimp Signup Form -->
+      <div class="flex flex-col items-center max-w-lg mx-auto text-center md:mb-0 mb-10">
+        <h2 class="text-3xl font-semibold tracking-tight text-gray-800 dark:text-white">
+          ¡Notificar!
+        </h2>
+  
+        <p class="mt-3 text-gray-500 dark:text-gray-300">
+          Estaremos prontamente disponibles en plataformas de alquiler vacacional.
+          Para estar al tanto de nuestras ultimas novedades porfavor de ingresar su correo electrónico:
+        </p>
+  
+        <form action="https://gmail.us17.list-manage.com/subscribe/post?u=f8f2ad2020030cfd235febe30&amp;id=f556e8f97b&amp;f_id=008ef8e2f0" method="post" class="mt-6 w-full flex flex-col sm:flex-row gap-4 items-center" target="_blank" novalidate>
+          <input type="email" name="EMAIL" id="mce-EMAIL" placeholder="Correo electrónico" required class="w-full px-4 py-2 text-gray-700 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+  
+          <!-- Honeypot -->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input type="text" name="b_f8f2ad2020030cfd235febe30_f556e8f97b" tabindex="-1" value="">
+          </div>
+  
+          <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="px-6 py-2 text-white bg-black rounded-lg hover:bg-blue-500">
+            Suscribir
+          </button>
+        </form>
+      </div>
+  
+      <!-- Social Media Links -->
+      <div class="flex flex-col items-center max-w-lg mx-auto text-center">
+        <h2 class="text-3xl font-semibold tracking-tight text-gray-800 dark:text-white">
+          Síguenos en nuestras redes sociales
+        </h2>
+  
+        <p class="mt-3 text-gray-500 dark:text-gray-300">
+          Estaremos compartiendo actualizaciones, fotos y novedades de nuestra propiedad. ¡Conéctate con nosotros!
+        </p>
+  
+        <div class="inline-flex mt-6 sm:w-auto mx-auto">
+          <div class="flex gap-10">
+            <a href="https://www.instagram.com/thebridgehouserd/" target="_blank" aria-label="Instagram">
+              <div class="h-7 w-7">
+                <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="#000"
+                viewBox="0 0 448 512">
+                <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+              </svg>
+              </div>
+            </a>
+  
+            <a href="https://www.tiktok.com/@thebridgehouserd" target="_blank" aria-label="TikTok">
+              <div class="h-7 w-7">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#000" viewBox="0 0 448 512">
+                  <path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/>
+                </svg>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
 
 <section>
   <iframe class="mx-auto mb-10" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60313.74859578423!2d-70.6550931!3d19.124789!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb0303a7467ec73%3A0x7ea5bf093b5de147!2s41000%20Jarabacoa%2C%20Dominican%20Republic!5e0!3m2!1sen!2sus!4v1743998883397!5m2!1sen!2sus" width="90%" height="450" style="border:0; border-radius: 30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
